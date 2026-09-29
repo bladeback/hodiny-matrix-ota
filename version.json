@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0",
-  "fs_version": "2.2.0",
+  "version": "2.2.1",
+  "fs_version": "2.2.1",
   "release_date": "2026-09-29",
-  "description": "Základní verze s podporou automatických cloudových aktualizací z GitHubu.",
+  "description": "Aktivace výchozího zapnutí automatických aktualizací a synchronizace obou desek.",
   "boards": {
     "waveshare_esp32_s3_zero": {
       "firmware_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/firmware_waveshare_esp32_s3_zero.bin",
