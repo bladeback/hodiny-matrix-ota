@@ -1,6 +1,8 @@
 {
   "version": "2.2.0",
-  "release_date": "2026-09-29",
   "firmware_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/firmware.bin",
+  "fs_version": "2.2.0",
+  "filesystem_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/littlefs.bin",
+  "release_date": "2026-09-29",
   "description": "Základní verze s podporou automatických cloudových aktualizací z GitHubu."
 }
