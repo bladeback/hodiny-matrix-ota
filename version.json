@@ -1,8 +1,18 @@
 {
   "version": "2.2.0",
-  "firmware_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/firmware.bin",
   "fs_version": "2.2.0",
-  "filesystem_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/littlefs.bin",
   "release_date": "2026-09-29",
-  "description": "Základní verze s podporou automatických cloudových aktualizací z GitHubu."
+  "description": "Základní verze s podporou automatických cloudových aktualizací z GitHubu.",
+  "boards": {
+    "waveshare_esp32_s3_zero": {
+      "firmware_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/firmware_waveshare_esp32_s3_zero.bin",
+      "filesystem_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/littlefs_waveshare_esp32_s3_zero.bin"
+    },
+    "seeed_xiao_esp32s3": {
+      "firmware_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/firmware_seeed_xiao_esp32s3.bin",
+      "filesystem_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/littlefs_seeed_xiao_esp32s3.bin"
+    }
+  },
+  "firmware_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/firmware_waveshare_esp32_s3_zero.bin",
+  "filesystem_url": "https://raw.githubusercontent.com/bladeback/hodiny-matrix-ota/main/littlefs_waveshare_esp32_s3_zero.bin"
 }
